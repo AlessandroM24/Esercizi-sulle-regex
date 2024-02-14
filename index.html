@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizi sulle regex</title>
+</head>
+
+<body>
+    <h1>Esercizi sulle regex</h1>
+
+    <form name="modulo">
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+        </p>
+        <br>
+        <p>
+            <label for="numeroEsadecimale">Numero esadecimale:</label>
+            <input type="text" name="numeroEsadecimale" id="numeroEsadecimale">
+        </p>
+        <br>
+        <p>
+            <label for="data">Data:</label>
+            <input type="text" name="data" id="data">
+        </p>
+        <br>
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+        </p>
+        <br>
+        <p>
+            <label for="ip">IP:</label>
+            <input type="text" name="ip" id="ip">
+        </p>
+        <br>
+        <p>
+            <label for="mac">Mac address:</label>
+            <input type="text" name="mac" id="mac">
+        </p>
+        <br>
+        <p>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email">
+        </p>
+        <br>
+        <p>
+            <label for="password2">Password (sei lettere e almeno due numeri):</label>
+            <input type="password" name="password2" id="password2">
+        </p>
+        <br>
+        <p>
+            <label for="parolaSegnoPunteggiatura">Parola che termina con segno di punteggiatura</label>
+            <input type="text" name="parolaSegnoPunteggiatura" id="parolaSegnoPunteggiatura">
+        </p>
+        <br>
+        <p>
+            <label for="parolaInizia">Parola che inzia con maiuscolo o minuscolo:</label>
+            <input type="text" name="parolaInizia" id="parolaInizia">
+        </p>
+        <br>
+        <p>
+            <label for="vocali">Tutte le vocali:</label>
+            <input type="text" name="vocali" id="vocali">
+        </p>
+        <br>
+        <p>
+            <label for="numero">Numero maggiore di 0:</label>
+            <input type="number" name="numero" id="numero" min="1">
+        </p>
+        <br>
+        <button onclick="validazione(event)">Invia</button>
+    </form>
+    <br>
+    <p id="risultato"></p>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

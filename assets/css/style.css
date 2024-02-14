@@ -1,0 +1,12 @@
+form {
+    display: table;
+}
+
+label, input {
+    display: table-cell;
+    padding-right: 15px;
+}
+
+p {
+    display: table-row;
+}
